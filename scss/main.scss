@@ -1,0 +1,50 @@
+@import './variables.scss';
+
+h1 {
+  font-family: 'Bitter', sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  color: #52538e;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.location-button {
+  width: 10%;
+  height: 35px;
+  border: none;
+  background-color: $button-color-enabled;
+  border-radius: 5%;
+  color: white;
+}
+
+.location-input {
+  font-size: 18px;
+  width: 50%;
+  height: 30px;
+  margin-left: 22%;
+  margin-right: 10px;
+}
+
+.location-message {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.weather-cards {
+  border: 5px solid;
+  margin: 10px;
+}
+
+.weather-on-card {
+  margin-left: 1%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
