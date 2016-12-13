@@ -1,0 +1,159 @@
+@import 'variables';
+
+html {
+  background-color: #cfdadf;
+}
+
+h1 {
+  font-family: 'Rokkitt', sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  color: #4a5355;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #3e4547;
+  margin-top: 10px;
+}
+
+.location-button {
+  width: 10%;
+  height: 35px;
+  border: none;
+  background-color: $button-color-enabled;
+  border-radius: 5%;
+  color: white;
+&:hover {
+  background-color: $button-color-hover;
+}
+&:disabled {
+  background-color: $button-color-disabled;
+}
+  }
+
+.location-input {
+  font-size: 18px;
+  width: 50%;
+  height: 30px;
+  margin-left: 22%;
+  margin-right: 10px;
+  margin-bottom: 45px;
+}
+
+.invalid-message {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #4a5355;
+}
+
+
+.chance, .scale, .date, .high-temp, .low-temp {
+  margin: 8px 3%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.place {
+  font-family: 'Rokkitt', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  margin: 10px 0 auto;
+}
+
+.type {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.weather-summary {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.sunny {
+  border: 10px solid $forecast-font-color;
+  margin: 10px;
+  background-image: url('/icons/sun.svg');
+  background-repeat: no-repeat;
+  background-size: 40% 40%;
+  background-position: right;
+  background-color: $sunny-background-color;
+  color: $forecast-font-color;
+}
+
+.rain {
+  border: 10px solid $forecast-font-color;
+  margin: 10px;
+  background-image: url('/icons/rain.svg');
+  background-repeat: no-repeat;
+  background-size: 40% 40%;
+  background-position: right;
+  background-color: $rain-background-color;
+  color: $forecast-font-color;
+}
+
+.windy {
+  border: 10px solid $forecast-font-color;
+  margin: 10px;
+  background-image: url('/icons/wind-sign.svg');
+  background-repeat: no-repeat;
+  background-size: 40% 40%;
+  background-position: right;
+  background-color: $windy-background-color;
+  color: $forecast-font-color;
+}
+
+.thunder {
+  border: 10px solid $forecast-font-color;
+  margin: 10px;
+  background-image: url('/icons/storm.svg');
+  background-repeat: no-repeat;
+  background-size: 40% 40%;
+  background-position: right;
+  background-color: $storm-background-color;
+  color: $forecast-font-color;
+}
+
+.snow {
+  border: 10px solid $forecast-font-color;
+  margin: 10px;
+  background-image: url('/icons/snowflake.svg');
+  background-repeat: no-repeat;
+  background-size: 40% 40%;
+  background-position: right;
+  background-color: $snow-background-color;
+  color: $forecast-font-color;
+}
+
+.cloudy {
+  border: 10px solid $forecast-font-color;
+  margin: 10px;
+  background-image: url('/icons/clouds.svg');
+  background-repeat: no-repeat;
+  background-size: 40% 40%;
+  background-position: right;
+  background-color: $cloudy-background-color;
+  color: $forecast-font-color;
+}
+
+.foggy {
+  border: 10px solid $forecast-font-color;
+  margin: 10px;
+  background-image: url('/icons/striped-cloud.svg');
+  background-repeat: no-repeat;
+  background-size: 40% 40%;
+  background-position: right;
+  background-color: $fog-background-color;
+  color: $forecast-font-color;
+}
