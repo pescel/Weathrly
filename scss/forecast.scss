@@ -1,0 +1,106 @@
+
+.chance, .scale, .date, .high-temp, .low-temp {
+  margin: 10px 6%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+}
+
+.place {
+  font-family: 'Rokkitt', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bolder;
+  margin: 10px 0 auto;
+}
+
+.type {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.weather-summary {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.sunny {
+  border: 10px solid $forecast-font-color;
+  margin: 10px;
+  background-image: url('/icons/sun.svg');
+  background-repeat: no-repeat;
+  background-size: 45% 45%;
+  background-position: right;
+  background-color: $sunny-background-color;
+  color: $forecast-font-color;
+}
+
+.rain {
+  border: 10px solid $forecast-font-color;
+  margin: 10px;
+  background-image: url('/icons/rain.svg');
+  background-repeat: no-repeat;
+  background-size: 45% 45%;
+  background-position: right;
+  background-color: $rain-background-color;
+  color: $forecast-font-color;
+}
+
+.windy {
+  border: 10px solid $forecast-font-color;
+  margin: 10px;
+  background-image: url('/icons/wind-sign.svg');
+  background-repeat: no-repeat;
+  background-size: 45% 45%;
+  background-position: right;
+  background-color: $windy-background-color;
+  color: $forecast-font-color;
+}
+
+.thunder {
+  border: 10px solid $forecast-font-color;
+  margin: 10px;
+  background-image: url('/icons/storm.svg');
+  background-repeat: no-repeat;
+  background-size: 45% 45%;
+  background-position: right;
+  background-color: $storm-background-color;
+  color: $forecast-font-color;
+}
+
+.snow {
+  border: 10px solid $forecast-font-color;
+  margin: 10px;
+  background-image: url('/icons/snowflake.svg');
+  background-repeat: no-repeat;
+  background-size: 45% 45%;
+  background-position: right;
+  background-color: $snow-background-color;
+  color: $forecast-font-color;
+}
+
+.cloudy {
+  border: 10px solid $forecast-font-color;
+  margin: 10px;
+  background-image: url('/icons/clouds.svg');
+  background-repeat: no-repeat;
+  background-size: 45% 45%;
+  background-position: right;
+  background-color: $cloudy-background-color;
+  color: $forecast-font-color;
+}
+
+.foggy {
+  border: 10px solid $forecast-font-color;
+  margin: 10px;
+  background-image: url('/icons/striped-cloud.svg');
+  background-repeat: no-repeat;
+  background-size: 45% 45%;
+  background-position: right;
+  background-color: $fog-background-color;
+  color: $forecast-font-color;
+}
